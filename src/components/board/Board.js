@@ -4,7 +4,7 @@ import Xicon from "../icons/Xicon";
 
 const Board = () => {
   return (
-    <div className="boards">
+    <div className="board">
       <div className="board__header">
         <div>
           <Xicon />
