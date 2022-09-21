@@ -3,7 +3,7 @@ import React from "react";
 const Xicon = ({ color, size }) => {
   return (
     <div
-      className={`icon  ${color ? "icon-" + color : "icon-blue"} ${
+      className={`icon ${color ? "icon-" + color : "icon-blue"} ${
         size && "icon-" + size
       }`}
     >
